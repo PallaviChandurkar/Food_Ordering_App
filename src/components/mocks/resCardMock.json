@@ -1,0 +1,111 @@
+{
+    "card": {
+        "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+                "id": "626306",
+                "name": "Dabba Garam (Homestyle,Combo, Thali & More)",
+                "cloudinaryImageId": "y8kuck8of7v3iez0yrga",
+                "locality": "Oshiwara",
+                "areaName": "Anand Nagar",
+                "costForTwo": "₹150 for two",
+                "cuisines": [
+                    "Home Food",
+                    "North Indian",
+                    "Thalis"
+                ],
+                "avgRating": 4.5,
+                "veg": true,
+                "parentId": "67608",
+                "avgRatingString": "4.5",
+                "totalRatingsString": "4.6K+",
+                "promoted": true,
+                "adTrackingId": "cid=9a3b7258-79d0-4a78-aa79-9d963642321e~p=4~adgrpid=9a3b7258-79d0-4a78-aa79-9d963642321e#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=626306~plpr=COLLECTION~eid=111204bc-d573-4855-809a-f0fc835fa9ce~srvts=1753608839411~collid=80435",
+                "sla": {
+                    "deliveryTime": 21,
+                    "lastMileTravel": 2.2,
+                    "serviceability": "SERVICEABLE",
+                    "slaString": "20-25 mins",
+                    "lastMileTravelString": "2.2 km",
+                    "iconType": "ICON_TYPE_EMPTY"
+                },
+                "availability": {
+                    "nextCloseTime": "2025-07-27 22:50:00",
+                    "opened": true
+                },
+                "badges": {
+                    "textExtendedBadges": [
+                        {
+                            "iconId": "guiltfree/GF_Logo_android_3x",
+                            "shortDescription": "options available",
+                            "fontColor": "#7E808C"
+                        }
+                    ]
+                },
+                "isOpen": true,
+                "type": "F",
+                "badgesV2": {
+                    "entityBadges": {
+                        "textBased": {},
+                        "imageBased": {},
+                        "textExtendedBadges": {
+                            "badgeObject": [
+                                {
+                                    "attributes": {
+                                        "fontColor": "#7E808C",
+                                        "iconId": "guiltfree/GF_Logo_android_3x",
+                                        "description": "",
+                                        "shortDescription": "options available"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "aggregatedDiscountInfoV3": {
+                    "header": "ITEMS",
+                    "subHeader": "AT ₹99",
+                    "logoCtx": {
+                        "text": "BENEFITS"
+                    }
+                },
+                "orderabilityCommunication": {
+                    "title": {},
+                    "subTitle": {},
+                    "message": {},
+                    "customIcon": {},
+                    "commsStyling": {}
+                },
+                "differentiatedUi": {
+                    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                    "differentiatedUiMediaDetails": {
+                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                        "lottie": {},
+                        "video": {}
+                    }
+                },
+                "reviewsSummary": {},
+                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                "restaurantOfferPresentationInfo": {},
+                "externalRatings": {
+                    "aggregatedRating": {
+                        "rating": "--"
+                    }
+                },
+                "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                "campaignId": "9a3b7258-79d0-4a78-aa79-9d963642321e"
+            },
+            "analytics": {},
+            "cta": {
+                "link": "swiggy://menu?restaurant_id=626306",
+                "text": "RESTAURANT_MENU",
+                "type": "DEEPLINK"
+            },
+            "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+        },
+        "relevance": {
+            "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+            "sectionId": "MENU_RETURN_FOOD"
+        }
+    }
+}

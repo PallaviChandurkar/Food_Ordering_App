@@ -1,0 +1,1386 @@
+{
+"statusCode": 0,
+"data": {
+"statusMessage": "done successfully",
+"pageOffset": {
+"nextOffset": "CI5DEOskKIDA8vfSxvS+DjDMEzgC",
+"widgetOffset": {
+"restaurantCountWidget": "",
+"inlineFacetFilter": "",
+"collectionV5RestaurantListWidget_SimRestoRelevance_food": "11",
+"collectionV5MastheadWidget": ""
+}
+},
+"cards": [
+{
+"card": {
+"card": {
+"@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.CollectionMasthead",
+"collectionId": "80435",
+"title": "Pure Veg",
+"description": "A vegetarian paradise loaded with options to satisfy your cravings.",
+"imageId": "COLLECTIONS/IMAGES/MERCH/2024/7/17/2b750178-532c-45f5-8e93-8a49e021c33f_pure veg.png",
+"aspectRatio": "3.44",
+"cta": {
+"link": "swiggy://collectionV2?collection_id=80435&tags=layout_CCS_PureVeg,veg",
+"type": "collectionv2"
+},
+"type": "COLLECTION_MASTHEAD_TYPE_IMAGE_WITH_TEXT",
+"count": "290 restaurants"
+}
+}
+},
+{
+"card": {
+"card": {
+"@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.InlineViewFilterSortWidget",
+"sortConfigs": [
+{
+"key": "relevance",
+"title": "Relevance (Default)",
+"selected": true,
+"defaultSelection": true
+},
+{
+"key": "deliveryTimeAsc",
+"title": "Delivery Time"
+},
+{
+"key": "modelBasedRatingDesc",
+"title": "Rating"
+},
+{
+"key": "costForTwoAsc",
+"title": "Cost: Low to High"
+},
+{
+"key": "costForTwoDesc",
+"title": "Cost: High to Low"
+}
+],
+"restaurantCount": 290,
+"facetList": [
+{
+"label": "10 Mins Delivery",
+"id": "isRestaurantBolt",
+"selection": "SELECT_TYPE_SINGLESELECT",
+"facetInfo": [
+{
+"label": "10 Mins Delivery",
+"id": "isRestaurantBoltfacetquery0",
+"analytics": {},
+"openFilter": true
+}
+],
+"viewType": "VIEW_TYPE_FLATTENED",
+"subLabel": "Filterby",
+"icon": "COLLECTIONS/IMAGES/MERCH/2024/12/18/4b2e8903-0e25-401b-8ede-088491b4cfa0_937977a3-b03b-4a9e-8b6a-24937664d1a9_pic.png"
+},
+{
+"label": "Veg/Non-Veg",
+"id": "isVeg",
+"selection": "SELECT_TYPE_MULTISELECT",
+"facetInfo": [
+{
+"label": "Pure Veg",
+"id": "isVegfacetquery1",
+"analytics": {},
+"openFilter": true
+}
+],
+"viewType": "VIEW_TYPE_HALF_CARD",
+"subLabel": "Filterby",
+"openFilter": true
+},
+{
+"label": "Ratings",
+"id": "rating",
+"selection": "SELECT_TYPE_MULTISELECT",
+"facetInfo": [
+{
+"label": "Ratings",
+"id": "ratingfacetquery0",
+"analytics": {},
+"openFilter": true
+},
+{
+"label": "Ratings 4.0+",
+"id": "ratingfacetquery1",
+"analytics": {},
+"openFilter": true
+},
+{
+"label": "Ratings 4.5+",
+"id": "ratingfacetquery2",
+"analytics": {},
+"openFilter": true
+}
+],
+"viewType": "VIEW_TYPE_HALF_CARD",
+"subLabel": "Filterby",
+"openFilter": true
+},
+{
+"label": "Delivery Time",
+"id": "deliveryTime",
+"selection": "SELECT_TYPE_MULTISELECT",
+"facetInfo": [
+{
+"label": "Less than 30 mins",
+"id": "deliveryTimefacetquery0",
+"analytics": {},
+"openFilter": true
+},
+{
+"label": "Less than 45 mins",
+"id": "deliveryTimefacetquery1",
+"analytics": {},
+"openFilter": true
+}
+],
+"viewType": "VIEW_TYPE_HALF_CARD",
+"subLabel": "Filterby",
+"openFilter": true
+},
+{
+"label": "Cost For Two",
+"id": "costForTwo",
+"selection": "SELECT_TYPE_MULTISELECT",
+"facetInfo": [
+{
+"label": "Less than Rs. 300",
+"id": "costForTwofacetquery0",
+"analytics": {},
+"openFilter": true
+},
+{
+"label": "Rs.300 - Rs.600",
+"id": "costForTwofacetquery1",
+"analytics": {},
+"openFilter": true
+},
+{
+"label": "Greater than Rs. 600",
+"id": "costForTwofacetquery2",
+"analytics": {},
+"openFilter": true
+}
+],
+"viewType": "VIEW_TYPE_HALF_CARD",
+"subLabel": "Filterby",
+"openFilter": true
+}
+],
+"widgetId": "inlineFacetFilter"
+}
+}
+},
+{
+"card": {
+"card": {
+"@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+"layout": {
+"rows": 1,
+"widgetPadding": {
+"left": 16,
+"right": 16
+},
+"widgetTheme": {
+"defaultMode": {
+"backgroundColour": "#FFFFFF",
+"theme": "THEME_TYPE_LIGHT"
+},
+"darkMode": {
+"backgroundColour": "#1B3028",
+"theme": "THEME_TYPE_DARK"
+}
+}
+},
+"id": "restaurantCountWidget",
+"gridElements": {
+"infoWithStyle": {
+"@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.TextBoxV2",
+"text": "290 Restaurants to explore",
+"headerStyling": {
+"textSize": 15,
+"textColor": "text_color_highest_emphasis",
+"textFontName": "FONT_NAME_HEADER_H5",
+"maxLines": 1
+}
+}
+}
+}
+}
+},
+{
+"card": {
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+"info": {
+"id": "992217",
+"name": "Sante Spa Cuisine",
+"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/5/9/9b0d11bc-af73-447f-a64f-0957426546ff_992217.jpg",
+"locality": "Oshiwara",
+"areaName": "Andheri West",
+"costForTwo": "₹1250 for two",
+"cuisines": [
+"healthy",
+"Continental",
+"Asian",
+"Salads"
+],
+"avgRating": 4.5,
+"veg": true,
+"parentId": "16814",
+"avgRatingString": "4.5",
+"totalRatingsString": "27",
+"promoted": true,
+"adTrackingId": "cid=193c81d5-46b2-4e93-ac00-31be9d894359~p=2~adgrpid=193c81d5-46b2-4e93-ac00-31be9d894359#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=992217~plpr=COLLECTION~eid=9d078576-46b9-4cd8-a144-5e6cf46dd82f~srvts=1753772757572~collid=80435",
+"sla": {
+"deliveryTime": 38,
+"lastMileTravel": 1.6,
+"serviceability": "SERVICEABLE",
+"slaString": "35-40 mins",
+"lastMileTravelString": "1.6 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+"availability": {
+"nextCloseTime": "2025-07-29 22:30:00",
+"opened": true
+},
+"badges": {
+"imageBadges": [
+{
+"imageId": "bolt/big%20rx%20listing%2015%20mins%20.png",
+"description": "bolt!"
+},
+{
+"imageId": "newg.png",
+"description": "Gourmet"
+}
+]
+},
+"isOpen": true,
+"type": "F",
+"badgesV2": {
+"entityBadges": {
+"textExtendedBadges": {},
+"textBased": {},
+"imageBased": {
+"badgeObject": [
+{
+"attributes": {
+"imageId": "bolt/big%20rx%20listing%2015%20mins%20.png",
+"description": "bolt!"
+}
+},
+{
+"attributes": {
+"imageId": "newg.png",
+"description": "Gourmet"
+}
+}
+]
+}
+}
+},
+"aggregatedDiscountInfoV3": {
+"header": "20% OFF",
+"subHeader": "UPTO ₹50",
+"logoCtx": {
+"text": "BENEFITS"
+}
+},
+"orderabilityCommunication": {
+"title": {},
+"subTitle": {},
+"message": {},
+"customIcon": {},
+"commsStyling": {}
+},
+"differentiatedUi": {
+"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+"differentiatedUiMediaDetails": {
+"mediaType": "ADS_MEDIA_ENUM_IMAGE",
+"lottie": {},
+"video": {}
+}
+},
+"reviewsSummary": {},
+"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+"restaurantOfferPresentationInfo": {},
+"externalRatings": {
+"aggregatedRating": {
+"rating": "--"
+}
+},
+"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+"campaignId": "193c81d5-46b2-4e93-ac00-31be9d894359"
+},
+"analytics": {},
+"cta": {
+"link": "swiggy://menu?restaurant_id=992217",
+"text": "RESTAURANT_MENU",
+"type": "DEEPLINK"
+},
+"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+},
+"relevance": {
+"type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+"sectionId": "MENU_RETURN_FOOD"
+}
+}
+},
+{
+"card": {
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+"info": {
+"id": "818944",
+"name": "Haldiram's Restaurant",
+"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/7/9/3c626dc3-6ced-4f77-95f7-b99987c9f10e_818944.jpg",
+"locality": "Andheri East",
+"areaName": "Andheri East",
+"costForTwo": "₹299 for two",
+"cuisines": [
+"North Indian",
+"Chinese",
+"South Indian",
+"Fast Food",
+"Snacks",
+"sandwich",
+"Burger",
+"pizza",
+"Pasta",
+"Desserts"
+],
+"avgRating": 4.2,
+"veg": true,
+"parentId": "351771",
+"avgRatingString": "4.2",
+"totalRatingsString": "1.6K+",
+"sla": {
+"deliveryTime": 34,
+"lastMileTravel": 4,
+"serviceability": "SERVICEABLE",
+"slaString": "30-35 mins",
+"lastMileTravelString": "4.0 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+"availability": {
+"nextCloseTime": "2025-07-30 01:00:00",
+"opened": true
+},
+"badges": {
+"imageBadges": [
+{
+"imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png",
+"description": "OnlyOnSwiggy"
+}
+]
+},
+"isOpen": true,
+"type": "F",
+"badgesV2": {
+"entityBadges": {
+"textBased": {},
+"imageBased": {
+"badgeObject": [
+{
+"attributes": {
+"imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png",
+"description": "OnlyOnSwiggy"
+}
+}
+]
+},
+"textExtendedBadges": {}
+}
+},
+"aggregatedDiscountInfoV3": {
+"header": "₹125 OFF",
+"subHeader": "ABOVE ₹349",
+"discountTag": "FLAT DEAL",
+"logoCtx": {
+"text": "BENEFITS"
+}
+},
+"orderabilityCommunication": {
+"title": {},
+"subTitle": {},
+"message": {},
+"customIcon": {},
+"commsStyling": {}
+},
+"differentiatedUi": {
+"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+"differentiatedUiMediaDetails": {
+"mediaType": "ADS_MEDIA_ENUM_IMAGE",
+"lottie": {},
+"video": {}
+}
+},
+"reviewsSummary": {},
+"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+"restaurantOfferPresentationInfo": {},
+"externalRatings": {
+"aggregatedRating": {
+"rating": "--"
+}
+},
+"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+},
+"analytics": {},
+"cta": {
+"link": "swiggy://menu?restaurant_id=818944",
+"text": "RESTAURANT_MENU",
+"type": "DEEPLINK"
+},
+"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+},
+"relevance": {
+"type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+"sectionId": "MENU_RETURN_FOOD"
+}
+}
+},
+{
+"card": {
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+"info": {
+"id": "502074",
+"name": "Cheelizza - India Ka Pizza",
+"cloudinaryImageId": "f58a1b772e5eeea45ff8ead3890703ed",
+"locality": "Near Andheri West Station",
+"areaName": "Andheri West",
+"costForTwo": "₹500 for two",
+"cuisines": [
+"Pizzas",
+"Pastas",
+"Fast Food"
+],
+"avgRating": 4.2,
+"veg": true,
+"parentId": "375077",
+"avgRatingString": "4.2",
+"totalRatingsString": "2.8K+",
+"promoted": true,
+"adTrackingId": "cid=8b313864-21b0-4df9-aa22-665b43922019~p=7~adgrpid=8b313864-21b0-4df9-aa22-665b43922019#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=502074~plpr=COLLECTION~eid=dc4c0701-1ee6-4039-8eb4-7d15bb0007dd~srvts=1753772757572~collid=80435",
+"sla": {
+"deliveryTime": 30,
+"lastMileTravel": 2.1,
+"serviceability": "SERVICEABLE",
+"slaString": "25-30 mins",
+"lastMileTravelString": "2.1 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+"availability": {
+"nextCloseTime": "2025-07-30 03:00:00",
+"opened": true
+},
+"badges": {
+"textExtendedBadges": [
+{
+"iconId": "guiltfree/GF_Logo_android_3x",
+"shortDescription": "options available",
+"fontColor": "#7E808C"
+}
+]
+},
+"isOpen": true,
+"type": "F",
+"badgesV2": {
+"entityBadges": {
+"textExtendedBadges": {
+"badgeObject": [
+{
+"attributes": {
+"iconId": "guiltfree/GF_Logo_android_3x",
+"description": "",
+"shortDescription": "options available",
+"fontColor": "#7E808C"
+}
+}
+]
+},
+"textBased": {},
+"imageBased": {}
+}
+},
+"aggregatedDiscountInfoV3": {
+"header": "ITEMS",
+"subHeader": "AT ₹99",
+"logoCtx": {
+"text": "BENEFITS"
+}
+},
+"orderabilityCommunication": {
+"title": {},
+"subTitle": {},
+"message": {},
+"customIcon": {},
+"commsStyling": {}
+},
+"differentiatedUi": {
+"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+"differentiatedUiMediaDetails": {
+"mediaType": "ADS_MEDIA_ENUM_IMAGE",
+"lottie": {},
+"video": {}
+}
+},
+"reviewsSummary": {},
+"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+"restaurantOfferPresentationInfo": {},
+"externalRatings": {
+"aggregatedRating": {
+"rating": "4.2",
+"ratingCount": "52"
+},
+"source": "GOOGLE",
+"sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+},
+"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+"campaignId": "8b313864-21b0-4df9-aa22-665b43922019"
+},
+"analytics": {},
+"cta": {
+"link": "swiggy://menu?restaurant_id=502074",
+"text": "RESTAURANT_MENU",
+"type": "DEEPLINK"
+},
+"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+},
+"relevance": {
+"type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+"sectionId": "MENU_RETURN_FOOD"
+}
+}
+},
+{
+"card": {
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+"info": {
+"id": "626306",
+"name": "Dabba Garam (Homestyle,Combo, Thali & More)",
+"cloudinaryImageId": "y8kuck8of7v3iez0yrga",
+"locality": "Oshiwara",
+"areaName": "Anand Nagar",
+"costForTwo": "₹150 for two",
+"cuisines": [
+"Home Food",
+"North Indian",
+"Thalis"
+],
+"avgRating": 4.5,
+"veg": true,
+"parentId": "67608",
+"avgRatingString": "4.5",
+"totalRatingsString": "4.7K+",
+"sla": {
+"deliveryTime": 32,
+"lastMileTravel": 2.2,
+"serviceability": "SERVICEABLE",
+"slaString": "30-35 mins",
+"lastMileTravelString": "2.2 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+"availability": {
+"nextCloseTime": "2025-07-29 22:50:00",
+"opened": true
+},
+"badges": {
+"textExtendedBadges": [
+{
+"iconId": "guiltfree/GF_Logo_android_3x",
+"shortDescription": "options available",
+"fontColor": "#7E808C"
+}
+]
+},
+"isOpen": true,
+"type": "F",
+"badgesV2": {
+"entityBadges": {
+"textExtendedBadges": {
+"badgeObject": [
+{
+"attributes": {
+"iconId": "guiltfree/GF_Logo_android_3x",
+"description": "",
+"shortDescription": "options available",
+"fontColor": "#7E808C"
+}
+}
+]
+},
+"textBased": {},
+"imageBased": {}
+}
+},
+"aggregatedDiscountInfoV3": {
+"header": "ITEMS",
+"subHeader": "AT ₹9",
+"logoCtx": {
+"text": "BENEFITS"
+},
+"footerText": "4 DEALS LEFT",
+"secondaryHeaderType": "SECONDARY_HEADER_TYPE_USAGE_LIMIT_OFFER"
+},
+"orderabilityCommunication": {
+"title": {},
+"subTitle": {},
+"message": {},
+"customIcon": {},
+"commsStyling": {}
+},
+"differentiatedUi": {
+"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+"differentiatedUiMediaDetails": {
+"mediaType": "ADS_MEDIA_ENUM_IMAGE",
+"lottie": {},
+"video": {}
+}
+},
+"reviewsSummary": {},
+"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+"restaurantOfferPresentationInfo": {},
+"externalRatings": {
+"aggregatedRating": {
+"rating": "--"
+}
+},
+"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+},
+"analytics": {},
+"cta": {
+"link": "swiggy://menu?restaurant_id=626306",
+"text": "RESTAURANT_MENU",
+"type": "DEEPLINK"
+},
+"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+},
+"relevance": {
+"type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+"sectionId": "MENU_RETURN_FOOD"
+}
+}
+},
+{
+"card": {
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+"info": {
+"id": "609959",
+"name": "Biryani Can - Pure Veg Biryanis",
+"cloudinaryImageId": "3119220ebb79daca5313f41c2e618416",
+"locality": "Andheri Lokhandwala",
+"areaName": "Andheri West",
+"costForTwo": "₹600 for two",
+"cuisines": [
+"Biryani",
+"Kebabs",
+"Desserts"
+],
+"avgRating": 4,
+"veg": true,
+"parentId": "362589",
+"avgRatingString": "4.0",
+"totalRatingsString": "469",
+"promoted": true,
+"adTrackingId": "cid=eda2a58a-e54d-4325-a3bb-dbf40139629e~p=8~adgrpid=eda2a58a-e54d-4325-a3bb-dbf40139629e#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=609959~plpr=COLLECTION~eid=4aff4c2f-079c-44b0-b603-e7c36146a513~srvts=1753772757572~collid=80435",
+"sla": {
+"deliveryTime": 25,
+"lastMileTravel": 2.1,
+"serviceability": "SERVICEABLE",
+"slaString": "25-30 mins",
+"lastMileTravelString": "2.1 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+"availability": {
+"nextCloseTime": "2025-07-30 03:00:00",
+"opened": true
+},
+"badges": {
+"imageBadges": [
+{
+"imageId": "v1695133679/badges/Pure_Veg111.png",
+"description": "pureveg"
+}
+]
+},
+"isOpen": true,
+"type": "F",
+"badgesV2": {
+"entityBadges": {
+"textBased": {},
+"imageBased": {
+"badgeObject": [
+{
+"attributes": {
+"imageId": "v1695133679/badges/Pure_Veg111.png",
+"description": "pureveg"
+}
+}
+]
+},
+"textExtendedBadges": {}
+}
+},
+"aggregatedDiscountInfoV3": {
+"header": "ITEMS",
+"subHeader": "AT ₹99",
+"logoCtx": {
+"text": "BENEFITS"
+}
+},
+"orderabilityCommunication": {
+"title": {},
+"subTitle": {},
+"message": {},
+"customIcon": {},
+"commsStyling": {}
+},
+"differentiatedUi": {
+"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+"differentiatedUiMediaDetails": {
+"mediaType": "ADS_MEDIA_ENUM_IMAGE",
+"lottie": {},
+"video": {}
+}
+},
+"reviewsSummary": {},
+"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+"restaurantOfferPresentationInfo": {},
+"externalRatings": {
+"aggregatedRating": {
+"rating": "1.0",
+"ratingCount": "<3"
+},
+"source": "GOOGLE",
+"sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+},
+"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+"campaignId": "eda2a58a-e54d-4325-a3bb-dbf40139629e"
+},
+"analytics": {},
+"cta": {
+"link": "swiggy://menu?restaurant_id=609959",
+"text": "RESTAURANT_MENU",
+"type": "DEEPLINK"
+},
+"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+},
+"relevance": {
+"type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+"sectionId": "MENU_RETURN_FOOD"
+}
+}
+},
+{
+"card": {
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+"info": {
+"id": "526790",
+"name": "La Pino'z Pizza",
+"cloudinaryImageId": "qekreihcixuljelipv0y",
+"locality": "Jog Gor East",
+"areaName": "Goregaon East",
+"costForTwo": "₹450 for two",
+"cuisines": [
+"Pizzas",
+"Pastas",
+"Italian",
+"Desserts",
+"Beverages"
+],
+"avgRating": 4.3,
+"veg": true,
+"parentId": "4961",
+"avgRatingString": "4.3",
+"totalRatingsString": "2.5K+",
+"sla": {
+"deliveryTime": 29,
+"lastMileTravel": 2.2,
+"serviceability": "SERVICEABLE",
+"slaString": "25-30 mins",
+"lastMileTravelString": "2.2 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+"availability": {
+"nextCloseTime": "2025-07-30 05:00:00",
+"opened": true
+},
+"badges": {
+"imageBadges": [
+{
+"imageId": "Rxawards/_CATEGORY-Pizza.png",
+"description": "Delivery!"
+}
+]
+},
+"isOpen": true,
+"type": "F",
+"badgesV2": {
+"entityBadges": {
+"textBased": {},
+"imageBased": {
+"badgeObject": [
+{
+"attributes": {
+"imageId": "Rxawards/_CATEGORY-Pizza.png",
+"description": "Delivery!"
+}
+}
+]
+},
+"textExtendedBadges": {}
+}
+},
+"aggregatedDiscountInfoV3": {
+"header": "ITEMS",
+"subHeader": "AT ₹79",
+"logoCtx": {
+"text": "BENEFITS"
+}
+},
+"orderabilityCommunication": {
+"title": {},
+"subTitle": {},
+"message": {},
+"customIcon": {},
+"commsStyling": {}
+},
+"differentiatedUi": {
+"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+"differentiatedUiMediaDetails": {
+"mediaType": "ADS_MEDIA_ENUM_IMAGE",
+"lottie": {},
+"video": {}
+}
+},
+"reviewsSummary": {},
+"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+"restaurantOfferPresentationInfo": {},
+"externalRatings": {
+"aggregatedRating": {
+"rating": "--"
+}
+},
+"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+},
+"analytics": {},
+"cta": {
+"link": "swiggy://menu?restaurant_id=526790",
+"text": "RESTAURANT_MENU",
+"type": "DEEPLINK"
+},
+"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+},
+"relevance": {
+"type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+"sectionId": "MENU_RETURN_FOOD"
+}
+}
+},
+{
+"card": {
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+"info": {
+"id": "410561",
+"name": "Sadak Chaap",
+"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/10/17/0335aa92-1e2e-45d5-8f57-b3fe9dcc9482_410561.jpg",
+"locality": "Malad West",
+"areaName": "Malad West",
+"costForTwo": "₹400 for two",
+"cuisines": [
+"Tandoor",
+"Indian",
+"North Indian"
+],
+"avgRating": 4.5,
+"veg": true,
+"parentId": "22110",
+"avgRatingString": "4.5",
+"totalRatingsString": "4.6K+",
+"promoted": true,
+"adTrackingId": "cid=42520af6-af36-4798-b071-347244aa191e~p=9~adgrpid=42520af6-af36-4798-b071-347244aa191e#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=410561~plpr=COLLECTION~eid=92c3e9e8-06f4-481d-82ed-60aec3820464~srvts=1753772757572~collid=80435",
+"sla": {
+"deliveryTime": 43,
+"lastMileTravel": 2.7,
+"serviceability": "SERVICEABLE",
+"slaString": "40-45 mins",
+"lastMileTravelString": "2.7 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+"availability": {
+"nextCloseTime": "2025-07-29 17:00:00",
+"opened": true
+},
+"badges": {
+"textExtendedBadges": [
+{
+"iconId": "guiltfree/GF_Logo_android_3x",
+"shortDescription": "options available",
+"fontColor": "#7E808C"
+}
+]
+},
+"isOpen": true,
+"type": "F",
+"badgesV2": {
+"entityBadges": {
+"textBased": {},
+"imageBased": {},
+"textExtendedBadges": {
+"badgeObject": [
+{
+"attributes": {
+"description": "",
+"shortDescription": "options available",
+"fontColor": "#7E808C",
+"iconId": "guiltfree/GF_Logo_android_3x"
+}
+}
+]
+}
+}
+},
+"aggregatedDiscountInfoV3": {
+"header": "₹50 OFF",
+"subHeader": "ABOVE ₹299",
+"discountTag": "FLAT DEAL",
+"logoCtx": {
+"text": "BENEFITS"
+}
+},
+"orderabilityCommunication": {
+"title": {},
+"subTitle": {},
+"message": {},
+"customIcon": {},
+"commsStyling": {}
+},
+"differentiatedUi": {
+"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+"differentiatedUiMediaDetails": {
+"mediaType": "ADS_MEDIA_ENUM_IMAGE",
+"lottie": {},
+"video": {}
+}
+},
+"reviewsSummary": {},
+"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+"restaurantOfferPresentationInfo": {},
+"externalRatings": {
+"aggregatedRating": {
+"rating": "4.5",
+"ratingCount": "319"
+},
+"source": "GOOGLE",
+"sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+},
+"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+"campaignId": "42520af6-af36-4798-b071-347244aa191e"
+},
+"analytics": {},
+"cta": {
+"link": "swiggy://menu?restaurant_id=410561",
+"text": "RESTAURANT_MENU",
+"type": "DEEPLINK"
+},
+"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+},
+"relevance": {
+"type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+"sectionId": "MENU_RETURN_FOOD"
+}
+}
+},
+{
+"card": {
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+"info": {
+"id": "776262",
+"name": "The Belgian Waffle Co.",
+"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/16/1f380424-32e6-4ca9-941d-be5d9929ed5b_776262.jpg",
+"locality": "(MEGA MALL",
+"areaName": "NEW LINK ROAD",
+"costForTwo": "₹200 for two",
+"cuisines": [
+"Waffle",
+"Desserts",
+"Ice Cream"
+],
+"avgRating": 4.5,
+"veg": true,
+"parentId": "2233",
+"avgRatingString": "4.5",
+"totalRatingsString": "479",
+"sla": {
+"deliveryTime": 33,
+"lastMileTravel": 1.6,
+"serviceability": "SERVICEABLE",
+"slaString": "30-35 mins",
+"lastMileTravelString": "1.6 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+"availability": {
+"nextCloseTime": "2025-07-30 04:00:00",
+"opened": true
+},
+"badges": {
+"imageBadges": [
+{
+"imageId": "bolt/big%20rx%20listing%2015%20mins%20.png",
+"description": "bolt!"
+},
+{
+"imageId": "Rxawards/_CATEGORY-Desserts.png",
+"description": "Delivery!"
+}
+]
+},
+"isOpen": true,
+"type": "F",
+"badgesV2": {
+"entityBadges": {
+"imageBased": {
+"badgeObject": [
+{
+"attributes": {
+"imageId": "bolt/big%20rx%20listing%2015%20mins%20.png",
+"description": "bolt!"
+}
+},
+{
+"attributes": {
+"imageId": "Rxawards/_CATEGORY-Desserts.png",
+"description": "Delivery!"
+}
+}
+]
+},
+"textExtendedBadges": {},
+"textBased": {}
+}
+},
+"aggregatedDiscountInfoV3": {
+"header": "ITEMS",
+"subHeader": "AT ₹99",
+"logoCtx": {
+"text": "BENEFITS"
+}
+},
+"orderabilityCommunication": {
+"title": {},
+"subTitle": {},
+"message": {},
+"customIcon": {},
+"commsStyling": {}
+},
+"differentiatedUi": {
+"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+"differentiatedUiMediaDetails": {
+"mediaType": "ADS_MEDIA_ENUM_IMAGE",
+"lottie": {},
+"video": {}
+}
+},
+"reviewsSummary": {},
+"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+"restaurantOfferPresentationInfo": {},
+"externalRatings": {
+"aggregatedRating": {
+"rating": "--"
+}
+},
+"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+},
+"analytics": {},
+"cta": {
+"link": "swiggy://menu?restaurant_id=776262",
+"text": "RESTAURANT_MENU",
+"type": "DEEPLINK"
+},
+"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+},
+"relevance": {
+"type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+"sectionId": "MENU_RETURN_FOOD"
+}
+}
+},
+{
+"card": {
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+"info": {
+"id": "263587",
+"name": "Shravan Specials by Lunchbox",
+"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/7/11/90295643-0e26-4768-97ab-ea74a20f1b3d_263587.JPG",
+"locality": "SMGK Associate Residency",
+"areaName": "Hill Park Complex",
+"costForTwo": "₹200 for two",
+"cuisines": [
+"Biryani",
+"North Indian",
+"Desserts",
+"Beverages"
+],
+"avgRating": 3.8,
+"veg": true,
+"parentId": "21938",
+"avgRatingString": "3.8",
+"totalRatingsString": "293",
+"promoted": true,
+"adTrackingId": "cid=31360393~p=12~adgrpid=31360393#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=263587~plpr=COLLECTION~eid=7a1ce3e3-4f37-4254-8828-9331b3faddeb~srvts=1753772757572~collid=80435",
+"sla": {
+"deliveryTime": 32,
+"lastMileTravel": 1.8,
+"serviceability": "SERVICEABLE",
+"slaString": "30-35 mins",
+"lastMileTravelString": "1.8 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+"availability": {
+"nextCloseTime": "2025-07-29 23:59:00",
+"opened": true
+},
+"badges": {
+"imageBadges": [
+{
+"imageId": "bolt/big%20rx%20listing%2015%20mins%20.png",
+"description": "bolt!"
+},
+{
+"imageId": "v1695133679/badges/Pure_Veg111.png",
+"description": "pureveg"
+}
+]
+},
+"isOpen": true,
+"type": "F",
+"badgesV2": {
+"entityBadges": {
+"textBased": {},
+"imageBased": {
+"badgeObject": [
+{
+"attributes": {
+"imageId": "bolt/big%20rx%20listing%2015%20mins%20.png",
+"description": "bolt!"
+}
+},
+{
+"attributes": {
+"description": "pureveg",
+"imageId": "v1695133679/badges/Pure_Veg111.png"
+}
+}
+]
+},
+"textExtendedBadges": {}
+}
+},
+"aggregatedDiscountInfoV3": {
+"header": "ITEMS",
+"subHeader": "AT ₹149",
+"logoCtx": {
+"text": "BENEFITS"
+}
+},
+"orderabilityCommunication": {
+"title": {},
+"subTitle": {},
+"message": {},
+"customIcon": {},
+"commsStyling": {}
+},
+"differentiatedUi": {
+"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+"differentiatedUiMediaDetails": {
+"mediaType": "ADS_MEDIA_ENUM_IMAGE",
+"lottie": {},
+"video": {}
+}
+},
+"reviewsSummary": {},
+"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+"restaurantOfferPresentationInfo": {},
+"externalRatings": {
+"aggregatedRating": {
+"rating": "--"
+}
+},
+"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+"campaignId": "31360393"
+},
+"analytics": {},
+"cta": {
+"link": "swiggy://menu?restaurant_id=263587",
+"text": "RESTAURANT_MENU",
+"type": "DEEPLINK"
+},
+"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+},
+"relevance": {
+"type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+"sectionId": "MENU_RETURN_FOOD"
+}
+}
+},
+{
+"card": {
+"card": {
+"@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+"info": {
+"id": "257742",
+"name": "Great Indian Khichdi by EatFit",
+"cloudinaryImageId": "6e44fd7f1e5cd9967edfe47c10247671",
+"locality": "Nr. Agarwal Industrial Estate",
+"areaName": "Jogeshwari West",
+"costForTwo": "₹200 for two",
+"cuisines": [
+"Home Food",
+"Indian",
+"North Indian",
+"Healthy Food",
+"Snacks",
+"Desserts",
+"Rajasthani",
+"South Indian",
+"Maharashtrian",
+"Sweets"
+],
+"avgRating": 4.3,
+"veg": true,
+"parentId": "319582",
+"avgRatingString": "4.3",
+"totalRatingsString": "6.7K+",
+"sla": {
+"deliveryTime": 29,
+"lastMileTravel": 1.8,
+"serviceability": "SERVICEABLE",
+"slaString": "25-30 mins",
+"lastMileTravelString": "1.8 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+"availability": {
+"nextCloseTime": "2025-07-30 01:00:00",
+"opened": true
+},
+"badges": {
+"imageBadges": [
+{
+"imageId": "bolt/big%20rx%20listing%2015%20mins%20.png",
+"description": "bolt!"
+},
+{
+"imageId": "v1695133679/badges/Pure_Veg111.png",
+"description": "pureveg"
+}
+],
+"textExtendedBadges": [
+{
+"iconId": "guiltfree/GF_Logo_android_3x",
+"shortDescription": "brand",
+"fontColor": "#7E808C"
+}
+]
+},
+"isOpen": true,
+"type": "F",
+"badgesV2": {
+"entityBadges": {
+"imageBased": {
+"badgeObject": [
+{
+"attributes": {
+"imageId": "bolt/big%20rx%20listing%2015%20mins%20.png",
+"description": "bolt!"
+}
+},
+{
+"attributes": {
+"description": "pureveg",
+"imageId": "v1695133679/badges/Pure_Veg111.png"
+}
+}
+]
+},
+"textExtendedBadges": {
+"badgeObject": [
+{
+"attributes": {
+"fontColor": "#7E808C",
+"iconId": "guiltfree/GF_Logo_android_3x",
+"description": "",
+"shortDescription": "brand"
+}
+}
+]
+},
+"textBased": {}
+}
+},
+"aggregatedDiscountInfoV3": {
+"header": "ITEMS",
+"subHeader": "AT ₹99",
+"logoCtx": {
+"text": "BENEFITS"
+}
+},
+"orderabilityCommunication": {
+"title": {},
+"subTitle": {},
+"message": {},
+"customIcon": {},
+"commsStyling": {}
+},
+"differentiatedUi": {
+"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+"differentiatedUiMediaDetails": {
+"mediaType": "ADS_MEDIA_ENUM_IMAGE",
+"lottie": {},
+"video": {}
+}
+},
+"reviewsSummary": {},
+"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+"restaurantOfferPresentationInfo": {},
+"externalRatings": {
+"aggregatedRating": {
+"rating": "--"
+}
+},
+"ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+},
+"analytics": {},
+"cta": {
+"link": "swiggy://menu?restaurant_id=257742",
+"text": "RESTAURANT_MENU",
+"type": "DEEPLINK"
+},
+"widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+},
+"relevance": {
+"type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+"sectionId": "MENU_RETURN_FOOD"
+}
+}
+}
+],
+"firstOffsetRequest": true,
+"nextFetch": 3
+},
+"tid": "ffadec82-63cf-406f-97b8-9d5d5fc56208",
+"sid": "lzo98e10-353e-4ba0-a190-cb7d9ea53954",
+"deviceId": "ae6b9647-399f-257c-cc1f-105fc24ac529",
+"csrfToken": "z8t6peTRn6zR-tkPkcavbdnqV4SGzlsgXyj82x4Y"
+}
