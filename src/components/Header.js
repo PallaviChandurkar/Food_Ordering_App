@@ -22,7 +22,7 @@ const Header = () => {
             <div>
                 <ul className="flex gap-1 sm:gap-5 text-lg">
                     <Link to="/"><li className="hidden sm:block">Home</li></Link>
-                    <Link to="/about"><li className="hidden sm:block">About</li></Link>
+                    {/* <Link to="/about"><li className="hidden sm:block">About</li></Link> */}
                     {/* <Link to="/grocery"><li>Grocery</li></Link> */}
                     <Link to="/contact"><li className="hidden sm:block">Contact</li></Link>
                     {/* <Link to="/cart"><li>Cart {cartItems.length}</li></Link> */}
@@ -36,7 +36,7 @@ const Header = () => {
                         </div>
                     </Link>
                     {/* <Link to="/"><li>{loggedInUser}</li></Link> */}
-                    <button onClick={()=>{btn=="Login" ? setBtn("Logout") : setBtn("Login")}} className="bg-black text-white py-1 px-3 rounded-lg cursor-pointer hidden sm:block">{btn}</button>
+                    {/* <button onClick={()=>{btn=="Login" ? setBtn("Logout") : setBtn("Login")}} className="bg-black text-white py-1 px-3 rounded-lg cursor-pointer hidden sm:block">{btn}</button> */}
                 </ul>
             </div>
         </div>
